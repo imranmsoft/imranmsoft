@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Imran | QA Lead</title>
+<meta name="description" content="Md Imran, QA Lead with 17 years in software testing. Web, mobile and API test automation, performance and security testing, and AI in QA with Claude + MCP.">
+<meta property="og:title" content="Md Imran | QA Lead">
+<meta property="og:description" content="17 years keeping bugs out of production. QA leadership, test automation, performance and security testing, AI in QA.">
+<style>
+  :root {
+    --bg: #0f1720;
+    --panel: #16212d;
+    --line: #243244;
+    --text: #e6edf3;
+    --muted: #9fb0c2;
+    --accent: #3ddc97;
+    --accent-2: #5aa9ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(15, 23, 32, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 60px; }
+  nav .brand { font-weight: 700; color: var(--text); }
+  nav ul { display: flex; gap: 22px; list-style: none; }
+  nav ul a { color: var(--muted); font-size: 0.95rem; }
+  nav ul a:hover { color: var(--text); text-decoration: none; }
+
+  header { padding: 88px 0 64px; }
+  .avatar {
+    width: 84px; height: 84px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: #0b1118; font-size: 2rem; font-weight: 800;
+    margin-bottom: 24px;
+  }
+  .kicker { color: var(--accent); font-weight: 600; letter-spacing: 0.04em; margin-bottom: 8px; }
+  h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); line-height: 1.15; margin-bottom: 16px; }
+  .lead { font-size: 1.2rem; color: var(--muted); max-width: 680px; margin-bottom: 28px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-block; padding: 11px 20px; border-radius: 8px;
+    font-weight: 600; border: 1px solid var(--line); color: var(--text);
+  }
+  .btn.primary { background: var(--accent); color: #0b1118; border-color: var(--accent); }
+  .btn:hover { text-decoration: none; filter: brightness(1.08); }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-top: 48px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .stat b { display: block; font-size: 1.8rem; color: var(--accent); }
+  .stat span { color: var(--muted); font-size: 0.95rem; }
+
+  section { padding: 64px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.6rem; margin-bottom: 28px; }
+  h3 { font-size: 1.1rem; margin-bottom: 6px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; }
+  .card p { color: var(--muted); }
+
+  .job { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+  .job:last-child { border-bottom: none; }
+  .job .when { color: var(--muted); font-size: 0.92rem; }
+  .job .where { color: var(--accent-2); font-weight: 600; }
+  .job .scope { color: var(--muted); margin-bottom: 10px; }
+  .job ul { padding-left: 18px; }
+  .job li { margin-bottom: 6px; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag { background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 5px 13px; font-size: 0.9rem; }
+  .skill-group { margin-bottom: 22px; }
+  .skill-group h3 { color: var(--muted); font-size: 0.95rem; font-weight: 600; margin-bottom: 10px; }
+
+  blockquote { background: var(--panel); border-left: 3px solid var(--accent); border-radius: 8px; padding: 20px 24px; color: var(--muted); }
+  blockquote footer { margin-top: 10px; color: var(--text); font-size: 0.92rem; }
+
+  .contact { text-align: center; }
+  .contact p { color: var(--muted); margin-bottom: 24px; }
+  .contact .cta { justify-content: center; }
+
+  footer.site { padding: 28px 0; text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); }
+
+  @media (max-width: 680px) {
+    nav ul { display: none; }
+    .job { grid-template-columns: 1fr; gap: 6px; }
+    header { padding-top: 56px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Md Imran</a>
+    <ul>
+      <li><a href="#what">What I do</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap">
+    <div class="avatar">MI</div>
+    <p class="kicker">QA Lead · Dhaka, Bangladesh</p>
+    <h1>17 years keeping bugs out of production.</h1>
+    <p class="lead">I lead QA teams across web, mobile and API, and I'm now building AI into how my team at Ding tests, using Claude and MCP.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:imranmsoft@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/md-imran-a5425a384/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>17 yrs</b><span>in software QA, since 2009</span></div>
+      <div class="stat"><b>5 → 1.8 days</b><span>regression cycle at Ding</span></div>
+      <div class="stat"><b>12</b><span>security vulnerabilities caught before release at Cefalo</span></div>
+      <div class="stat"><b>3 platforms</b><span>Android, iOS and web under one QA team</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="what">
+  <div class="wrap">
+    <h2>What you get if you hire me</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>A team that owns release quality</h3>
+        <p>At Ding I built and lead the Dhaka QA team across Android, iOS and web. We cut the regression cycle from 5 days to 1.8.</p>
+      </div>
+      <div class="card">
+        <h3>Automation that runs in the pipeline</h3>
+        <p>Playwright, Selenium (Java and C#), Appium, Postman and Newman, wired into Jenkins, GitLab, Bitbucket, TeamCity and Azure DevOps.</p>
+      </div>
+      <div class="card">
+        <h3>The testing most teams skip</h3>
+        <p>Load testing with K6 and JMeter. Security testing with Burp Suite, OWASP ZAP and Nessus. Logs through AWS CloudWatch, X-Ray and Kibana.</p>
+      </div>
+      <div class="card">
+        <h3>AI that saves real hours</h3>
+        <p>Kibana log queries through MCP, test cases generated from tickets, and a Claude + MCP hackathon I ran for my team.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div><div class="where">Ding</div><div class="when">QA Team Lead<br>Mar 2026 – Present<br>Dhaka · On-site</div></div>
+      <div>
+        <p class="scope">Lead QA for Ding's mobile (Android, iOS) and web products. Built and lead the Dhaka QA team, including the QA Automation Engineering team.</p>
+        <ul>
+          <li>Cut the regression cycle from 5 days to 1.8.</li>
+          <li>Integrated Claude via MCP into QA workflows to reduce manual testing effort, and ran a Claude + MCP hackathon for the team.</li>
+          <li>Track and improve QA KPIs: test coverage, defect leakage, release quality and cycle time.</li>
+          <li>Run daily triage of nightly build results in Eagle, so failing tests and flaky automation get fixed the same day.</li>
+          <li>Expanded no-code/low-code automation with TestRigor and Vibium; own backend and API integration test automation.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div><div class="where">Innova Soft Ltd.</div><div class="when">Lead QA Engineer<br>Dec 2025 – Feb 2026<br>Dhaka · On-site</div></div>
+      <div>
+        <p class="scope">Set up QA process and automation for a growing product team.</p>
+        <ul>
+          <li>Architected a Playwright framework covering regression, smoke and end-to-end suites, running in CI/CD.</li>
+          <li>Extended coverage to edge cases, accessibility and performance.</li>
+          <li>Built test suites and QA dashboards in Quality Plus for Jira with full requirement traceability.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div><div class="where">Cantaloupe Inc.</div><div class="when">Senior QA Engineer<br>May 2025 – Nov 2025<br>Remote (US)</div></div>
+      <div>
+        <p class="scope">Remote QA for a US payments platform.</p>
+        <ul>
+          <li>Automated browser tests in C# with Selenium (Page Object Model), built and deployed through TeamCity.</li>
+          <li>Validated releases at the database level with SQL, and tracked product and DB versions through rollout.</li>
+          <li>Tested rate limiting with Burp Suite and checked for SQL injection at the frontend and API gateway levels.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div><div class="where">Cefalo</div><div class="when">Senior Software Engineer (QA in Lead Role)<br>Feb 2023 – Apr 2025<br>Dhaka · Hybrid</div></div>
+      <div>
+        <p class="scope">Led QA on a financial services product: automation, pipelines, performance and security testing.</p>
+        <ul>
+          <li>Built a Playwright framework running in Docker on Bitbucket, GitLab and Jenkins, triggered on every deploy.</li>
+          <li>Automated API testing with Postman and Newman, including rate limiting, throttling and idempotency checks at the API gateway.</li>
+          <li>Security testing with OWASP ZAP, Nessus and Nmap, identifying 12 security vulnerabilities before release.</li>
+          <li>Monitoring with AWS CloudWatch, X-Ray, Lambda and CloudTrail. Managed QA task split, root cause analysis and bug triage.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div><div class="where">Dynamic Solution Innovators (DSi)</div><div class="when">Senior QA Engineer (QA in Lead Role)<br>May 2014 – Jun 2022<br>Dhaka · On-site</div></div>
+      <div>
+        <p class="scope">Led QA for mobile and web products over 8 years.</p>
+        <ul>
+          <li>Built Selenium WebDriver automation with TestNG/JUnit and a hybrid keyword-driven framework.</li>
+          <li>API testing with Postman and SoapUI; load testing with JMeter and Gatling.</li>
+          <li>Managed the QA team: test plans, estimation and onboarding new engineers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div><div class="where">ServicEngine</div><div class="when">Lead QA<br>Sep 2009 – Sep 2014<br>Dhaka · On-site</div></div>
+      <div>
+        <p class="scope">Built Selenium + TestNG automation, trained new QA hires, and ran sprint test estimation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills and tools</h2>
+    <div class="skill-group">
+      <h3>Leadership</h3>
+      <div class="tags">
+        <span class="tag">QA strategy</span><span class="tag">Team building</span><span class="tag">QA KPIs</span>
+        <span class="tag">Shift-left testing</span><span class="tag">Test estimation</span><span class="tag">A-CSPO certified</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Automation</h3>
+      <div class="tags">
+        <span class="tag">Playwright</span><span class="tag">Selenium (Java, C#)</span><span class="tag">Appium</span>
+        <span class="tag">TestNG / JUnit</span><span class="tag">TestRigor</span><span class="tag">Vibium</span><span class="tag">BrowserStack</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>API, performance and security</h3>
+      <div class="tags">
+        <span class="tag">Postman / Newman</span><span class="tag">SoapUI</span><span class="tag">K6</span><span class="tag">JMeter</span>
+        <span class="tag">Gatling</span><span class="tag">Burp Suite</span><span class="tag">OWASP ZAP</span><span class="tag">Nessus</span><span class="tag">Nmap</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>CI/CD, cloud and observability</h3>
+      <div class="tags">
+        <span class="tag">Jenkins</span><span class="tag">GitLab</span><span class="tag">Bitbucket</span><span class="tag">TeamCity</span>
+        <span class="tag">Azure DevOps</span><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">Kafka</span>
+        <span class="tag">Kibana</span><span class="tag">Google Cloud BigQuery</span><span class="tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>AI in testing</h3>
+      <div class="tags">
+        <span class="tag">Claude</span><span class="tag">MCP (Model Context Protocol)</span><span class="tag">AI-generated test cases</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recommendation">
+  <div class="wrap">
+    <h2>What people say</h2>
+    <blockquote>
+      "Throughout our collaboration, Imran consistently demonstrated strong technical expertise, clear leadership, and a deep commitment to quality."
+      <footer>Sourav Chowdhury, Software Engineer · worked with Imran as a QA Automation Engineer</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Hiring a QA Lead, QA Manager or Head of QA?</h2>
+    <p>Remote, hybrid or on-site. The fastest way to reach me is email.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:imranmsoft@gmail.com">imranmsoft@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/md-imran-a5425a384/" target="_blank" rel="noopener">Message me on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">© 2026 Md Imran · Education: Southeast University</div>
+</footer>
+
+</body>
+</html>
